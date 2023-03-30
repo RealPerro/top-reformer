@@ -1,0 +1,16 @@
+<h1>Here you create a new user!</h1>
+
+<form action="/users" accept-charset="UTF-8" method = "post">
+  <label for = "username">User Name</label>
+  <input type = "text" name = "user[username]" id = "username">
+
+  <label for = "email">Email</label>
+  <input type = "text" name = "user[email]" id = "email">
+
+  <label for = "password">Password</label>
+  <input type = "password" name = "user[password]" id = "password">
+
+  <input type = "submit">
+</form>
+
+<%= link_to "home", root_path %>
